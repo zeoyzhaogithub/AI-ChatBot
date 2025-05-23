@@ -9,17 +9,28 @@
 1. 安装依赖包
 
 ```bash
-pip install -r requirements.txt
+pip install ollama
+pip install streamlit==1.32.0
 ```
 
-2. 启动 Flask 服务
+2. 启动 服务
 
 ```bash
-python app.py
+streamlit run ChattingRobot/chat_main.py
 ```
 
-3. 访问 <http://localhost:5000/chat> 启动聊天界面
+如果运行不成功，可以带上Python版本运行
+
+```bash
+python3.13 -m streamlit run ChattingRobot/main.py
+```
+
+3. 访问 <http://localhost:8501> 启动聊天界面
 
 ## 模型训练
 
 1. 下载模型
+
+# 可选：设置别名简化命令
+
+alias python="python3.13"
