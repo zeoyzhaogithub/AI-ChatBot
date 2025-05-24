@@ -22,7 +22,7 @@ streamlit run ChattingRobot/chat_main.py
 如果运行不成功，可以带上Python版本运行
 
 ```bash
-python3.13 -m streamlit run ChattingRobot/main.py
+python3.13 -m streamlit run AI-ChatBot/ChattingRobot/src/web/main.py
 ```
 
 3. 访问 <http://localhost:8501> 启动聊天界面
